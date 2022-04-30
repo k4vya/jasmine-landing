@@ -1,0 +1,48 @@
+#root {
+    background-color: #121212;
+}
+
+img#logo { 
+    max-width: 40%;
+  height: 40%;
+  
+}
+#log-container { 
+    padding-left: 40%;
+}
+#second-half { 
+    display:inline-flex;
+    justify-content: flex-end;
+}
+.jt, .js { 
+    font-family: 'Sen', sans-serif;
+    color: #D7D2CF;
+}
+
+.subtitle { 
+    font-family:  'PT Serif', serif; 
+    color: #D7D2CF;
+    font-size: 0.5em;
+}
+.container { 
+    display: flex;
+}
+
+#kavya { 
+    height: 70%;
+}
+.member { 
+    max-width: 60%;
+    height: auto;
+}
+
+.informational { 
+    font-family: 'Sen', 'sans-serif';
+    color:#D7D2CF;
+    margin-bottom: 10%;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

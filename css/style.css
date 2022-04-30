@@ -1,0 +1,127 @@
+body{
+    background-color: #121212;
+    
+}
+nav { 
+    font-size: 1rem;
+    text-align: center;
+    display: none;
+}
+
+nav li { 
+    display: inline;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family:  'PT Serif', serif;
+    color:#D7D2CF;
+    
+}
+
+#page-title { 
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-bottom: 3em;
+    
+}
+
+.row .title { 
+    margin-bottom: 0.5em;
+}
+.title{
+    font-family: 'Sen', sans-serif;
+    color: #D7D2CF;
+    font-size: 4em;
+}
+p { 
+    font-family:  'PT Serif', serif;
+    color:#D7D2CF;
+}
+
+img { 
+    max-width: 75%;
+    margin-top: 15px;
+}
+
+#subtitle { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 1em;
+}
+
+.flex-container { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.context-title { 
+    font-family: 'Sen', sans-serif;
+    color: #D7D2CF;
+}
+
+.member-card   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.context-item { 
+    font-family: 'Sen', sans-serif;
+    color: #D7D2CF;
+    margin-bottom: 3em;
+}
+
+.context-item p { 
+    font-family: 'Sen', sans-serif;
+    color: #D7D2CF;
+}
+.member-card { 
+    margin-bottom: 2em;
+}
+.member-card img { 
+    max-width: 50%;
+}
+
+
+@media (min-width: 769px) { 
+    h1 { 
+        font-size: 4rem;
+    }
+    #proj { 
+        margin-left: 30px;
+    }
+   #logo { 
+       max-width: 100px;
+       margin-left: 210px;
+   }
+
+   #page-title { 
+       margin-bottom: 6em;
+   }
+
+   #about-jasmine { 
+       padding: 2em;
+   }
+
+
+}
+
+@media (min-width: 1025px) { 
+    #subtitle p { 
+        font-size: 1.25em;
+        text-align: center;
+        padding: 20%;
+        
+    }
+
+    #screen  {
+        max-width: 40%;
+    }
+
+    
+
+}
