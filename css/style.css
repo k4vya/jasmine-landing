@@ -90,10 +90,16 @@ img {
     color: #D7D2CF;
 }
 .member-card { 
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
 }
 .member-card img { 
     max-width: 50%;
+}
+
+#about { 
+    align-items: center;
+    position: static;
+    padding-left: 50px;
 }
 
 
@@ -110,7 +116,7 @@ img {
    }
 
    #product { 
-    margin-bottom: 8em;
+    margin-bottom: 6em;
     }
 
     #screen { 
@@ -134,6 +140,7 @@ img {
 }
 
 @media (min-width: 1025px) { 
+
     #subtitle p { 
         font-size: 1.25em;
         text-align: center;
@@ -143,12 +150,20 @@ img {
 
     #page-title { 
         margin: 0 auto;
+        margin-top: 4em;
     }
 
     
+    #screen { 
+        align-items: center;
+    }
+    #phone-screen  {
+        width: auto;
+        height: 70%;
+    }
 
-    img #screen  {
-        max-width: 40%;
+    #product { 
+        margin-top: 3em;
     }
 
     #team { 
